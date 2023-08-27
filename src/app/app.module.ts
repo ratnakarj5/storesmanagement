@@ -9,12 +9,16 @@ import { FooterComponent } from './footer/footer.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { PhoneDirective } from './util/phone.directive';
+import { ZipDirective } from './util/zip.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PhoneDirective,
+    ZipDirective
   ],
   imports: [
     BrowserModule,
