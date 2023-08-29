@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { PhoneDirective } from './util/phone.directive';
 import { ZipDirective } from './util/zip.directive';
+import { AddstoreComponent } from './addstore/addstore.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ZipDirective } from './util/zip.directive';
     HeaderComponent,
     FooterComponent,
     PhoneDirective,
-    ZipDirective
+    ZipDirective,
+    AddstoreComponent
   ],
   imports: [
     BrowserModule,
